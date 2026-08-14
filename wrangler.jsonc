@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "contentdividend-authorization-bridge",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-08-13",
+  "vars": {
+    "CONTENTDIVIDEND_API_BASE": "https://app.contentdividend.com",
+    "CONTENTDIVIDEND_SITE_ID": "PASTE_FROM_CONTENTDIVIDEND",
+    "CONTENTDIVIDEND_BRIDGE_ID": "PASTE_FROM_CONTENTDIVIDEND"
+  }
+}
